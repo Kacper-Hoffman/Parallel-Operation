@@ -20,45 +20,23 @@ Samo sprawdzenie warunków pracy jest proste - wystarczy porównać ze sobą kol
 
 Jeśli transformatory mają równe napięcia znamionowe, to oznacza że stosunek ich impedancji jest równy stosunkowi przepływających przez nie prądów:
 
-![e1](http://www.sciweavers.org/tex2img.php?eq=%20%5Cfrac%7BZ_%7Bk2%7D%7D%7BZ_%7Bk1%7D%7D%20%3D%20%5Cfrac%7BI_1%7D%7BI_2%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+![e1](https://github.com/Kacper-Hoffman/Parallel-Operation/blob/main/e1.png)
 
 Po stronie impedancji mnożymy przez prądy znamionowe, uzyskując napięcia:
 
-![e2](http://www.sciweavers.org/tex2img.php?eq=%20%5Cfrac%7BZ_%7Bk2%7D%7D%7BZ_%7Bk1%7D%7D%20%20%5Cfrac%7BI_%7BN2%7D%7D%7BI_%7BN1%7D%7D%20%20%5Cfrac%7BI_%7BN1%7D%7D%7BI_%7BN2%7D%7D%20%3D%20%5Cfrac%7BI_1%7D%7BI_2%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+![e2](https://github.com/Kacper-Hoffman/Parallel-Operation/blob/main/e2.png)
 
-![e3](https://bit.ly/3qbZD85)
+Z definicji mocy znamionowych stosunki prądów zastępujemy mocami transformatorów. Wprowadzenie dodatkowego symbolu S = S1 + S2 pozwala na wyznaczenie wzoru na obciążenie transformatora S1. Można udowodnić że końcowy wzór jest generalny - dla większej ilości transformatorów wystarczy w mianowniku zsumować iloczyny mocy i napięć dla wszystkich transformatorów.
 
-Z definicji mocy znamionowych stosunki prądów zastępujemy mocami transformatorów. Wprowadzenie dodatkowego symbolu S = S1 + S2 pozwala na wyznaczenie wzoru na obciążenie transformatora S1:
+![e3](https://github.com/Kacper-Hoffman/Parallel-Operation/blob/main/e3.png)
 
-![e4](https://bit.ly/3cLATR5)
+![e4](https://github.com/Kacper-Hoffman/Parallel-Operation/blob/main/e4.png)
 
-![e5](http://www.sciweavers.org/tex2img.php?eq=%20%5Cfrac%7BU_%7Bk2%7D%7D%7BU_%7Bk1%7D%7D%20%20%5Cfrac%7BS_%7BN1%7D%7D%7BS_%7BN2%7D%7D%20%3D%20%5Cfrac%7BS_1%7D%7BS-S_1%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-
-![e6](http://www.sciweavers.org/tex2img.php?eq=%20%5Cfrac%7BS-S_1%7D%7BS_1%7D%3D%20%5Cfrac%7BU_%7Bk1%7D%7D%7BU_k2%7D%20%5Cfrac%7BS_%7BN2%7D%7D%7BS_%7Bn1%7D%7D%20%20%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-
-![e7](https://bit.ly/3RhiR8k)
-
-![e8](http://www.sciweavers.org/tex2img.php?eq=S%3DS_1%28%20%5Cfrac%7BU_%7Bk1%7D%7D%7BU_k2%7D%20%5Cfrac%7BS_%7BN2%7D%7D%7BS_%7Bn1%7D%7D%29%2BS_1&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-
-![e9](https://bit.ly/3wTpjdd)
-
-![e10](http://www.sciweavers.org/tex2img.php?eq=S%3DS_1%28%20%5Cfrac%7BU_%7Bk1%7D%7D%7BU_%7Bk2%7D%7D%20%5Cfrac%7BS_%7BN2%7D%7D%7BS_%7Bn1%7D%7D%2B%20%5Cfrac%7BU_%7Bk2%7DS_%7BN1%7D%7D%7BU_%7Bk2%7DS_%7BN1%7D%7D%20%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-
-![e11](https://bit.ly/3CVh9Fe)
-
-![e12](http://www.sciweavers.org/tex2img.php?eq=S_1%3DS%28%20%5Cfrac%7BU_%7Bk2%7DS_%7BN1%7D%7D%7BU_%7Bk1%7DS_%7BN2%7D%2BU_%7Bk2%7DS_%7BN1%7D%7D%20%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-
-![e13](https://bit.ly/3wXfCuF)
-
-![e14](http://www.sciweavers.org/tex2img.php?eq=S_1%3DS%28%20%5Cfrac%7B%5Cfrac%7BS_%7BN1%7D%7D%7BU_k1%7D%7D%7B%5Cfrac%7BS_%7BN2%7D%7D%7BU_%7Bk2%7D%7D%20%2B%20%5Cfrac%7BS_%7BN1%7D%7D%7BU_%7Bk1%7D%7D%7D%20%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-
-Można udowodnić że powyższy wzór jest generalny - dla większej ilości transformatorów wystarczy w mianowniku zsumować iloczyny mocy i napięć dla wszystkich transformatorów:
-
-![e15](https://bit.ly/3cM06Lb)
+![e5](https://github.com/Kacper-Hoffman/Parallel-Operation/blob/main/e5.png)
 
 W porównaniu z powyższym obliczenia strat mocy są proste. Jednak ten proces jest znacznie bardziej czasochłonny. Straty mocy oblicza się jako suma strat jałowych (stałe, niezależne od obciążenia) i strat obciążeniowych (zmienne, zależne od obciążenia). Komplikacja wynika z tego, że straty oblicza się dla wszystkich możliwych kombinacji połączeń transformatorów. Ilość obliczeń wzrasta eksponencjalnie z ilością transformatorów. Dokładniej ilość kombinacji = 2 ^ ilości transformatorów. Z tego powodu obliczenia strat warto wykonywać tylko komputerowo.
 
-![e16](https://bit.ly/3cL7QNm)
+![e6](https://github.com/Kacper-Hoffman/Parallel-Operation/blob/main/e6.png)
 
 ## Tran
 Oryginalny program Tran był programem konsolowym, gdzie wpisywało się dane 'liniowo'. Ograniczał się on do maksymalnie 5 transformatorów, nie dało się szybko zmienić danych transformatorów a wyniki obliczeń były dostępne w dwóch częściach. Obciążenia transformatorów pokazywały się od razu, ale straty mocy były niedostępne w konsoli - w celu ich zobaczenia trzeba było je wydrukować. Jak widać, program wymagał całkowitej modernizacji i przetworzenia na nowoczesne standardy.
@@ -107,45 +85,23 @@ Checking the conditions is easy - simply take the values of all transformers and
 
 If the transformers have the same voltages, then the ratios of their impedances and currents must be equal:
 
-![e1](http://www.sciweavers.org/tex2img.php?eq=%20%5Cfrac%7BZ_%7Bk2%7D%7D%7BZ_%7Bk1%7D%7D%20%3D%20%5Cfrac%7BI_1%7D%7BI_2%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+![e1](https://github.com/Kacper-Hoffman/Parallel-Operation/blob/main/e1.png)
 
 Multiplying the impedance side by currents we get voltages:
 
-![e2](http://www.sciweavers.org/tex2img.php?eq=%20%5Cfrac%7BZ_%7Bk2%7D%7D%7BZ_%7Bk1%7D%7D%20%20%5Cfrac%7BI_%7BN2%7D%7D%7BI_%7BN1%7D%7D%20%20%5Cfrac%7BI_%7BN1%7D%7D%7BI_%7BN2%7D%7D%20%3D%20%5Cfrac%7BI_1%7D%7BI_2%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+![e2](https://github.com/Kacper-Hoffman/Parallel-Operation/blob/main/e2.png)
 
-![e3](https://bit.ly/3qbZD85)
+From the definition of transformer power we replace ratios of currents with their powers. Using the additional symbol S = S1 + S2 allows us to calculate load S1. It's possible to prove that the final equation is general - simply replace the demominator with the sum of ratios.
 
-From the definition of transformer power we replace ratios of currents with their powers. Using the additional symbol S = S1 + S2 allows us to calculate load S1:
+![e3](https://github.com/Kacper-Hoffman/Parallel-Operation/blob/main/e3.png)
 
-![e4](https://bit.ly/3cLATR5)
+![e4](https://github.com/Kacper-Hoffman/Parallel-Operation/blob/main/e4.png)
 
-![e5](http://www.sciweavers.org/tex2img.php?eq=%20%5Cfrac%7BU_%7Bk2%7D%7D%7BU_%7Bk1%7D%7D%20%20%5Cfrac%7BS_%7BN1%7D%7D%7BS_%7BN2%7D%7D%20%3D%20%5Cfrac%7BS_1%7D%7BS-S_1%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-
-![e6](http://www.sciweavers.org/tex2img.php?eq=%20%5Cfrac%7BS-S_1%7D%7BS_1%7D%3D%20%5Cfrac%7BU_%7Bk1%7D%7D%7BU_k2%7D%20%5Cfrac%7BS_%7BN2%7D%7D%7BS_%7Bn1%7D%7D%20%20%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-
-![e7](https://bit.ly/3RhiR8k)
-
-![e8](http://www.sciweavers.org/tex2img.php?eq=S%3DS_1%28%20%5Cfrac%7BU_%7Bk1%7D%7D%7BU_k2%7D%20%5Cfrac%7BS_%7BN2%7D%7D%7BS_%7Bn1%7D%7D%29%2BS_1&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-
-![e9](https://bit.ly/3wTpjdd)
-
-![e10](http://www.sciweavers.org/tex2img.php?eq=S%3DS_1%28%20%5Cfrac%7BU_%7Bk1%7D%7D%7BU_%7Bk2%7D%7D%20%5Cfrac%7BS_%7BN2%7D%7D%7BS_%7Bn1%7D%7D%2B%20%5Cfrac%7BU_%7Bk2%7DS_%7BN1%7D%7D%7BU_%7Bk2%7DS_%7BN1%7D%7D%20%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-
-![e11](https://bit.ly/3CVh9Fe)
-
-![e12](http://www.sciweavers.org/tex2img.php?eq=S_1%3DS%28%20%5Cfrac%7BU_%7Bk2%7DS_%7BN1%7D%7D%7BU_%7Bk1%7DS_%7BN2%7D%2BU_%7Bk2%7DS_%7BN1%7D%7D%20%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-
-![e13](https://bit.ly/3wXfCuF)
-
-![e14](http://www.sciweavers.org/tex2img.php?eq=S_1%3DS%28%20%5Cfrac%7B%5Cfrac%7BS_%7BN1%7D%7D%7BU_k1%7D%7D%7B%5Cfrac%7BS_%7BN2%7D%7D%7BU_%7Bk2%7D%7D%20%2B%20%5Cfrac%7BS_%7BN1%7D%7D%7BU_%7Bk1%7D%7D%7D%20%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
-
-It's possible to prove that this equation is general - simply replace the demominator with the sum of ratios:
-
-![e15](https://bit.ly/3cM06Lb)
+![e5](https://github.com/Kacper-Hoffman/Parallel-Operation/blob/main/e5.png)
 
 In comparison calculating losses is easy. However, this prosecc is actually more time consuming. Power losses are the sum of idle losses (constant, independent of load) and load losses (variable, dependent of load). Complication arise from the fact that losses must be calculated for each combination of transformers. The number of calculations increases exponentially. To be percise, the number of calculations = 2 ^ number of transformers. Because of this it's only worth it to perform these calculations programmatically.
 
-![e16](https://bit.ly/3cL7QNm)
+![e6](https://github.com/Kacper-Hoffman/Parallel-Operation/blob/main/e6.png)
 
 ## Tran
 The originat program was a console application, where you input information 'linearly'. It was limited to 5 transformers, you couldn't quickly change transformer data and calculation results were available in two parts. Loads were visible immediately, but losses were inaccessible through console - in order to view them you had to print them. As you can see, this program needed modernization for modern standards.
