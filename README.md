@@ -60,7 +60,7 @@ Dodatkowo, Tran 2020 posiada szereg udogodnień i funkcji. Użytkownik może pra
 
 Porównanie wyników obliczeń z obu programów potwierdza, że nowy program działa prawidłowo. Aktualizacja zakończyła się sukcesem.
 
-Głębsza analiza zagadnienia, pełna analiza kodów obu programów oraz wykonane testy są dostępne w mojej ![pracy inżynierskiej](https://github.com/Kacper-Hoffman/Parallel-Operation/blob/main/RE000000-95009-INZ.pdf).
+Głębsza analiza zagadnienia, pełna analiza kodów obu programów oraz wykonane testy są dostępne w mojej [pracy inżynierskiej](https://github.com/Kacper-Hoffman/Parallel-Operation/blob/main/RE000000-95009-INZ.pdf).
 
 ---
 # Planning the parallel operation of transformers - Tran 2020 🇬🇧
@@ -125,4 +125,4 @@ Additionally, Tran 202 possesses a set of accessibility upgrades. The user can r
 
 Comparing results confirms that the new program functions correctly. The modernization was succesful.
 
-Deeper analisys of the topic, full analisys of code as well as tests are available in my ![engineering thesis (🇵🇱 only)](https://github.com/Kacper-Hoffman/Parallel-Operation/blob/main/RE000000-95009-INZ.pdf).
+Deeper analisys of the topic, full analisys of code as well as tests are available in my [engineering thesis (🇵🇱 only)](https://github.com/Kacper-Hoffman/Parallel-Operation/blob/main/RE000000-95009-INZ.pdf).
